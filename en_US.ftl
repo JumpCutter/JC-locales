@@ -39,3 +39,29 @@ view-title-contact-us = Contact us
 # privacy policy, and the licenses of open source software we use. All 
 # stuff needed to allow the app to be legally compliant
 view-title-legal = Legal
+
+
+
+# ############## #
+#  Views content #
+# ############## #
+# 
+# These are strings used inside of the different views, views being what
+# what you see when you click on an item in the sidebar navigation.
+
+
+## 
+## "Contact us" view (under "Help" tab)
+## 
+# --- Short description ---
+# This is a short description the user sees when they open this view.
+contact-us-description-text = Ask any questions you have, interact with other members of the community, and even the developers directly! You can also report bugs this way if you don't want to use the link in the side panel.
+
+# Label of the button that opens the link to our discrod server
+discord-invite = Join our Discord server
+
+# Label of the button that opens the link to our twitter account
+twitter-invite = Contact us on Twitter
+
+# Label of the button that copies the email to your clipboard
+email-invite = Send us an email
