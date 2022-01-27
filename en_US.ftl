@@ -105,8 +105,13 @@ email-invite = Send us an email
 #
 error-invalid-subscription = Error, invalid subscription
 error-cannot-reach-server = Cannot reach server
+generic-error = Error
 
+# Janky strings, we should use the fancy things fluent allows us to do. Needs changes in the main repo tho
 warning-one-tool-at-the-time-support = Currently we only support using one tool at a time. Multi-tool support will be added in future releases.
+
+
+beta-warning = This is beta software, help us by <formlink>reporting bugs.</formlink>
 
 member-since = Member since {$memberSince}
 version-label = Version {$version}
