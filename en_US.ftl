@@ -116,5 +116,27 @@ beta-warning = This is beta software, help us by <formlink>reporting bugs.</form
 member-since = Member since {$memberSince}
 version-label = Version {$version}
 
+strting-jumpcutter = Starting JumpCutter...
+
+
+subscription-required-warning = You must be subscribed to use the JumpCutter App. Head to this link to get started.
+go-to-website = Go to website.
+back-to-login = Back to login.
+internet-required-login = Please reconnect to the internet to validate your subscription to JumpCutter.
+invalid-username-or-password = Invalid username or password
+user-has-been-banned-or-disabled = User has been banned or disabled
+cannot-connect-to-authentication-service = Cannot connect to authentication service
+you-are-required-to-change-your-passowrd = You are required to change your password
+
+error-loggin-in = There was an error with logging you in, please try again later
+
+server-responded-with-undefined-error = Server responded with an undefined error:
+
+field-should-not-contain-spaces = Field should not contain spaces
+field-required = Field required
+
+login = Login
+username-or-email = Username/Email:
+password = Password:
 
 back = Back
