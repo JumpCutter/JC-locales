@@ -3,8 +3,6 @@ tab-home-label = Home
 tab-settings-label = Settings
 tab-help-label = Help
 
-
-###
 page-settings-heading = Settings
 
 view-account-label = Account
@@ -16,11 +14,13 @@ view-theme-heading = Theme
 view-language-label = Language
 view-language-heading = Language
 
+view-language-description = Set JumpCutter to your preferred language, not all parts are translated, but we're striving to improve this
+missing-a-language = Missing a language?
+language-warning-body = If you notice we're missing a language you can translate to, please visit <contribLink>the Github page with instructions</contribLink> or contact us on our <discordLink>community Discord server</discordLink>.
+
 view-software-details-label = Software details
 view-software-details-heading = Software details
 
-
-###
 page-home-heading = Getting Started
 
 view-start-project-label = Create
@@ -58,15 +58,10 @@ length-of-sections-tooltip = This refines the results. Think if it's like goldil
 compare-sections = Compare sections
 compare-sections-tooltip = This refines the results. Each section is compared to its neighboring sections to determine whether or not data is an outlier. Every bit of data is relative since there is so much fluctuation in audience behavior and retention. If you select 1 it will look at 1 section in both directions. If you select 5 it will look 5 sections in each direction. This determines how relative you want your edits to be. The default should be fine. Recommended: {$VODinitialCompareSection}
 
-
-###
-
 page-help-heading = Help
 view-contact-label = Contact us
 view-legal-label = Legal
 
-
-# TODO: fix up this, it can be single lined
 choose-video-file-or = Choose a video file or
 download-one-from-twitch = download one from twitch
 
@@ -80,7 +75,6 @@ view-changelog-heading = Changelog
 terms-of-service-label = Terms of Service
 privacy-policy-label = Privacy Policy
 dependency-licenses-label = Dependency licenses
-
 
 view-legal-heading = Legal
 view-legal-description = Legal stuff.
@@ -99,17 +93,12 @@ view-contact-description = Ask any questions you have, interact with other membe
 discord-invite = Join our Discord server
 twitter-invite = Contact us on Twitter
 email-invite = Send us an email
-# TODO: translate the changelog
 
-###
-#
 error-invalid-subscription = Error, invalid subscription
 error-cannot-reach-server = Cannot reach server
 generic-error = Error
 
-# Janky strings, we should use the fancy things fluent allows us to do. Needs changes in the main repo tho
 warning-one-tool-at-the-time-support = Currently we only support using one tool at a time. Multi-tool support will be added in future releases.
-
 
 beta-warning = This is beta software, help us by <formlink>reporting bugs.</formlink>
 
@@ -117,7 +106,6 @@ member-since = Member since {$memberSince}
 version-label = Version {$version}
 
 strting-jumpcutter = Starting JumpCutter...
-
 
 subscription-required-warning = You must be subscribed to use the JumpCutter App. Head to this link to get started.
 go-to-website = Go to website.
