@@ -1,3 +1,6 @@
 {
-  "en_US": "English (US)"
+  "en_US": {
+    "displayName": "English (US)",
+    "verified": true
+  }
 }
