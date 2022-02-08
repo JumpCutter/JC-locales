@@ -2,5 +2,93 @@
   "en_US": {
     "displayName": "English (US)",
     "verified": true
+  },
+  "bg_BG": {
+    "displayName": "Български",
+    "community": true
+  },
+  "cs_CZ": {
+    "displayName": "Čeština",
+    "community": true
+  },
+  "da_DK": {
+    "displayName": "Dansk",
+    "community": true
+  },
+  "nl_NL": {
+    "displayName": "Nederlands",
+    "community": true
+  },
+  "et_EE": {
+    "displayName": "Eesti",
+    "community": true
+  },
+  "fi_FI": {
+    "displayName": "Suomi",
+    "community": true
+  },
+  "fr_FR": {
+    "displayName": "Français",
+    "community": true
+  },
+  "de_DE": {
+    "displayName": "Deutsch",
+    "community": true
+  },
+  "el_GR": {
+    "displayName": "Ελληνική",
+    "community": true
+  },
+  "hu_HU": {
+    "displayName": "Magyar",
+    "community": true
+  },
+  "it_IT": {
+    "displayName": "Italiano",
+    "community": true
+  },
+  "ja_JP": {
+    "displayName": "やまと",
+    "community": true
+  },
+  "lv_LV": {
+    "displayName": "Latviešu",
+    "community": true
+  },
+  "lt_LT": {
+    "displayName": "Lietuva",
+    "community": true
+  },
+  "pl_PL": {
+    "displayName": "Polski",
+    "community": true
+  },
+  "pt_PT": {
+    "displayName": "Português",
+    "community": true
+  },
+  "ro_RO": {
+    "displayName": "Română",
+    "community": true
+  },
+  "ru_RU": {
+    "displayName": "Русский",
+    "community": true
+  },
+  "sk_SK": {
+    "displayName": "Slovenčina",
+    "community": true
+  },
+  "sl_SI": {
+    "displayName": "Slovenščina",
+    "community": true
+  },
+  "es_ES": {
+    "displayName": "Español",
+    "community": true
+  },
+  "sv_SE": {
+    "displayName": "Svenska",
+    "community": true
   }
 }
