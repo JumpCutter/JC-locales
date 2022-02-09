@@ -4,91 +4,69 @@
     "verified": true
   },
   "bg_BG": {
-    "displayName": "Български",
-    "community": true
+    "displayName": "Български"
   },
   "cs_CZ": {
-    "displayName": "Čeština",
-    "community": true
+    "displayName": "Čeština"
   },
   "da_DK": {
-    "displayName": "Dansk",
-    "community": true
+    "displayName": "Dansk"
   },
   "nl_NL": {
-    "displayName": "Nederlands",
-    "community": true
+    "displayName": "Nederlands"
   },
   "et_EE": {
-    "displayName": "Eesti",
-    "community": true
+    "displayName": "Eesti"
   },
   "fi_FI": {
-    "displayName": "Suomi",
-    "community": true
+    "displayName": "Suomi"
   },
   "fr_FR": {
-    "displayName": "Français",
-    "community": true
+    "displayName": "Français"
   },
   "de_DE": {
-    "displayName": "Deutsch",
-    "community": true
+    "displayName": "Deutsch"
   },
   "el_GR": {
-    "displayName": "Ελληνική",
-    "community": true
+    "displayName": "Ελληνική"
   },
   "hu_HU": {
-    "displayName": "Magyar",
-    "community": true
+    "displayName": "Magyar"
   },
   "it_IT": {
-    "displayName": "Italiano",
-    "community": true
+    "displayName": "Italiano"
   },
   "ja_JP": {
-    "displayName": "やまと",
-    "community": true
+    "displayName": "やまと"
   },
   "lv_LV": {
-    "displayName": "Latviešu",
-    "community": true
+    "displayName": "Latviešu"
   },
   "lt_LT": {
-    "displayName": "Lietuva",
-    "community": true
+    "displayName": "Lietuva"
   },
   "pl_PL": {
-    "displayName": "Polski",
-    "community": true
+    "displayName": "Polski"
   },
   "pt_PT": {
-    "displayName": "Português",
-    "community": true
+    "displayName": "Português"
   },
   "ro_RO": {
-    "displayName": "Română",
-    "community": true
+    "displayName": "Română"
   },
   "ru_RU": {
-    "displayName": "Русский",
-    "community": true
+    "displayName": "Русский"
   },
   "sk_SK": {
-    "displayName": "Slovenčina",
-    "community": true
+    "displayName": "Slovenčina"
   },
   "sl_SI": {
-    "displayName": "Slovenščina",
-    "community": true
+    "displayName": "Slovenščina"
   },
   "es_ES": {
-    "displayName": "Español",
-    "community": true
+    "displayName": "Español"
   },
   "sv_SE": {
-    "displayName": "Svenska",
-    "community": true
+    "displayName": "Svenska"
   }
 }
