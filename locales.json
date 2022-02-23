@@ -1,4 +1,6 @@
 {
-  "en-US": "English",
-  "pl": "Polish"
+  "en_US": {
+    "displayName": "English (US)",
+    "verified": true
+  }
 }
