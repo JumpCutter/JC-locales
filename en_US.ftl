@@ -25,6 +25,7 @@ page-home-heading = Getting Started
 
 view-start-project-label = Create
 view-start-project-heading = Create Project
+start-project-button = Start Project!
 
 choose-a-tool = Choose a tool
 
@@ -35,6 +36,7 @@ left-padding = Left padding
 left-padding-tooltip = This is the amount of padding to add to the start of each cut made by JumpCutter. Recommended: {$initialLeftPadding}
 
 right-padding = Right padding
+# FIXME: Shouldn't this be "amount of padding added to the *end* of each cut"?
 right-padding-tooltip = This is the amount of padding to add to the start of each cut made by JumpCutter. Recommended: {$initialRightPadding}
 
 remove-silences-shorter-than = Remove silences shorter than
@@ -47,6 +49,7 @@ silent-speed = Silent speed
 silent-speed-tooltip = The playback speed of the video during silent segments. Recommended: {$initialSilentSpeed}
 
 vod-id = VOD ID
+# FIXME: There should probably be a full stop after the brackets (before "Copy")
 vod-id-tooltip = Go to your PUBLIC vod on Twitch.tv that you want to have edited. The URL will look something like this (Example https://www.twitch.tv/videos/748327437) Copy the numbers at the end of the URL (Example 748327437) and paste them here!
 
 number-of-highlights = Number of highlights
@@ -56,6 +59,7 @@ length-of-sections = Length of sections
 length-of-sections-tooltip = This refines the results. Think if it's like goldilocks. If the number is too big it will miss really good highlights, and if the number is too small it might produce more false positives. Each streamer is different so we are giving you the option to experiment. The default should be fine. Recommended: ${VODinatorInitial.lenSection}
 
 compare-sections = Compare sections
+# XXX: TBH, I don't really understand what the last part means in english either ("This determines how relative you want your edits to be.")
 compare-sections-tooltip = This refines the results. Each section is compared to its neighboring sections to determine whether or not data is an outlier. Every bit of data is relative since there is so much fluctuation in audience behavior and retention. If you select 1 it will look at 1 section in both directions. If you select 5 it will look 5 sections in each direction. This determines how relative you want your edits to be. The default should be fine. Recommended: {$VODinitialCompareSection}
 
 page-help-heading = Help
@@ -88,7 +92,7 @@ dependency-full-license = Full license
 copied-email-to-clipboard = Copied email to clipboard
 
 view-contact-heading = Contact us
-view-contact-description = Ask any questions you have, interact with other members of the comunity, and even the developers directly! You can also report bugs this way if you don't want to use the link in the side panel.
+view-contact-description = Ask any questions you have, interact with other members of the community, and even the developers directly! You can also report bugs this way if you don't want to use the link in the side panel.
 
 discord-invite = Join our Discord server
 twitter-invite = Contact us on Twitter
