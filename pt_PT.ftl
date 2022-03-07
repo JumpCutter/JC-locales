@@ -25,7 +25,7 @@ view-software-details-head = Detalhes de software
 page-home-heading = Começar
 
 view-start-project-label = Criar
-view-start-project-head = Criar Projecto
+view-start-project-heading = Criar Projecto
 
 choose-a-tool = Escolher uma ferramenta
 

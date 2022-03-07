@@ -25,7 +25,7 @@ view-software-details-heading = Software-Details
 page-home-heading = Erste Schritte
 
 view-start-project-label = Erstellen
-ansicht-start-projekt-heading = Projekt erstellen
+view-start-project-heading = Projekt erstellen
 
 choose-a-tool = Wählen Sie ein Werkzeug
 
