@@ -15,9 +15,9 @@ view-theme-heading = Tema
 view-language-label = Lingua
 view-language-heading = Lingua
 
-view-language-description = Imposta JumpCutter nella tua lingua preferita, non tutte le parti sono tradotte, ma ci stiamo sforzando di migliorare questo
-missing-a-language = Ti manca una lingua?
-language-warning-body = Se noti che ci manca una lingua che puoi tradurre, per favore visita <contribLink>la pagina Github con le istruzioni</contribLink> o contattaci sul nostro <discordLink>server Discord della community</discordLink>.
+view-language-description = Imposta JumpCutter nella tua lingua preferita, non tutte le parti sono tradotte, ma ci stiamo impegnando per migliorare questo
+missing-a-language = Manca una lingua?
+language-warning-body = Se noti che manca una lingua che riesci tradurre, per favore visita <contribLink>la pagina Github con le istruzioni</contribLink> o contattaci sul nostro <discordLink>server Discord</discordLink>.
 
 view-software-details-label = Dettagli software
 view-software-details-heading = Dettagli software
@@ -30,34 +30,34 @@ view-start-project-heading = Crea progetto
 choose-a-tool = Scegli uno strumento
 
 silent-threshold = Soglia silenziosa
-silent-threshold-tooltip = Questo determina la soglia alla quale JumpCutter farà un taglio. Impostando il numero più alto causerà la creazione di più tagli perché interpreterà più del video come silenzioso. Raccomandato: {$initialSilentThreshold}
+silent-threshold-tooltip = Questo determina la soglia alla quale JumpCutter farà un taglio. Impostando il numero più alto causerà la creazione di più tagli perché interpreterà più parti del video come silenziose. Valore consigliato: {$initialSilentThreshold}
 
-left-padding = Imbottitura a sinistra
-left-padding-tooltip = Questa è la quantità di imbottitura da aggiungere all'inizio di ogni taglio fatto da JumpCutter. Raccomandato: {$initialLeftPadding}
+left-padding = Margine sinistro
+left-padding-tooltip = Questa è la quantità di margine da aggiungere all'inizio di ogni taglio fatto da JumpCutter. Valore consigliato: {$initialLeftPadding}
 
 right-padding = Imbottitura destra
-right-padding-tooltip = Questa è la quantità di imbottitura da aggiungere all'inizio di ogni taglio fatto da JumpCutter. Raccomandato: {$initialRightPadding}
+right-padding-tooltip = Questa è la quantità di margine da aggiungere alla fine di ogni taglio fatto da JumpCutter. Valore consigliato: {$initialRightPadding}
 
 remove-silences-shorter-than = Rimuovi i silenzi più brevi di
-remove-silences-shorter-than-tooltip = Ignora i silenzi che sono più corti della lunghezza data. Raccomandato: {$initialMinSize}
+remove-silences-shorter-than-tooltip = Ignora i silenzi che sono più corti della lunghezza data. Valore consigliato: {$initialMinSize}
 
-sounded-speed = Velocità del suono
-sounded-speed-tooltip = La velocità di riproduzione del video durante i segmenti sonori. Raccomandato: {$initialSoundedSpeed}
+sounded-speed = Velocità parti sonore
+sounded-speed-tooltip = La velocità alla quale riprodurre il video durante i segmenti sonori. Valore consigliato: {$initialSoundedSpeed}
 
-silent-speed = Velocità silenziosa
-silent-speed-tooltip = La velocità di riproduzione del video durante i segmenti silenziosi. Raccomandato: {$initialSilentSpeed}
+silent-speed = Velocità parti silenziose
+silent-speed-tooltip = La velocità alla quale riprodurre il video durante i segmenti silenziosi. Valore consigliato: {$initialSilentSpeed}
 
 vod-id = ID VOD
-vod-id-tooltip = Vai al tuo vod PUBBLICO su Twitch.tv che vuoi far modificare. L'URL sarà qualcosa di simile a questo (Esempio https://www.twitch.tv/videos/748327437) Copia i numeri alla fine dell'URL (Esempio 748327437) e incollali qui!
+vod-id-tooltip = Vai al tuo VOD pubblico su twitch.tv che vuoi editare. L'URL sarà qualcosa di simile a https://www.twitch.tv/videos/748327437. Copia i numeri alla fine dell'URL (Nell'esempio: 748327437) e incollali qui!
 
-number-of-highlights = Numero di punti salienti
-number-of-highlights-tooltip = Ogni evidenziazione sarà di circa 30sec. Se scegli 10, allora selezionerà i 10 momenti migliori del tuo stream. L'inizio e la fine di ogni highlight dovrebbero essere perfezionati da te! Raccomandazione: Di solito butto via la metà dei momenti salienti, quindi se vuoi un video di 2,5 minuti ti consiglio di selezionare 10clips. Raccomandato: {$VODinitialNumHighlights}
+number-of-highlights = Numero di clip migliori
+number-of-highlights-tooltip = Ogni clip sarà di circa 30 secondi. Se scegli 10, allora selezionerà i 10 momenti migliori della tua stream. L'inizio e la fine di ogni clip dovrebbero essere perfezionati da te! Consiglio: Di solito butto via la metà delle clip, quindi se vuoi un video di 2,5 minuti ti consiglio di selezionare 10 clip. Valore consigliato: {$VODinitialNumHighlights}
 
 length-of-sections = Lunghezza delle sezioni
-length-of-sections-tooltip = Questo raffina i risultati. Pensa se è come Riccioli d'oro. Se il numero è troppo grande si perderà una buona illuminazione, e se il numero è troppo piccolo potrebbe produrre più falsi positivi. Ogni streamer è diverso quindi ti stiamo dando la possibilità di sperimentare. Il valore predefinito dovrebbe andare bene. Raccomandato: ${VODinatorInitial.lenSection}
+length-of-sections-tooltip = Questo raffina i risultati. Se il numero è troppo grande si perderà una buona clip, e se il numero è troppo piccolo potrebbe produrre più falsi positivi. Ogni streamer è diverso, quindi ti diamo la possibilità di sperimentare. Il valore predefinito dovrebbe andare bene. Valore consigliato: ${VODinatorInitial.lenSection}
 
 compare-sections = Confronta le sezioni
-compare-sections-tooltip = Questo raffina i risultati. Ogni sezione viene confrontata con le sezioni vicine per determinare se i dati sono un outlier o meno. Ogni bit di dati è relativo poiché c'è così tanta fluttuazione nel comportamento e nella ritenzione del pubblico. Se selezioni 1 guarderà 1 sezione in entrambe le direzioni. Se selezioni 5 guarderà 5 sezioni in ogni direzione. Questo determina quanto relativo vuoi che le tue modifiche siano. Il valore predefinito dovrebbe andare bene. Raccomandato: {$VODinitialCompareSection}
+compare-sections-tooltip = Questo raffina i risultati. Ogni sezione viene confrontata con le sezioni vicine per determinare se i dati sono un caso particolare o meno. Ogni pezzetto di informazioni è relativo poiché c'è così tanta fluttuazione nel comportamento e nella ritenzione del pubblico. Se selezioni 1, guarderà 1 sezione in entrambe le direzioni. Se selezioni 5, guarderà 5 sezioni in ogni direzione. Questo determina quanto relativo vuoi che le tue modifiche siano. Il valore predefinito dovrebbe andare bene. Valore consigliato: {$VODinitialCompareSection}
 
 page-help-heading = Aiuto
 view-contact-label = Contattaci
@@ -66,7 +66,7 @@ view-legal-label = Legale
 choose-video-file-or = Scegli un file video o
 download-one-from-twitch = scaricalo da twitch
 
-file-input-prompt = Clicca per selezionare il file o trascinane uno qui
+file-input-prompt = Clicca per selezionare un file o trascinane uno qui
 
 page-home-separator-keep-up-to-date = Tieniti aggiornato
 
@@ -75,21 +75,21 @@ view-changelog-heading = Changelog
 
 terms-of-service-label = Termini di servizio
 privacy-policy-label = Informativa sulla privacy
-dependency-licenses-label = Licenze di dipendenza
+dependency-licenses-label = Licenze esterne
 
 view-legal-heading = Legale
 view-legal-description = Roba legale.
 
-the-following-software-may-be-included = Il seguente software può essere incluso in questo prodotto.
+the-following-software-may-be-included = Il seguente software potrebbe essere incluso in questo prodotto.
 
 license-type = Licenza {$pkgLicense}
 dependency-project-homepage = Homepage del progetto
 dependency-full-license = Licenza completa
 
-copied-email-to-clipboard = Email copiate negli appunti
+copied-email-to-clipboard = Email copiata negli appunti
 
 view-contact-heading = Contattaci
-view-contact-description = Fai tutte le domande che hai, interagisci con gli altri membri della comunità e anche con gli sviluppatori direttamente! Puoi anche segnalare bug in questo modo se non vuoi usare il link nel pannello laterale.
+view-contact-description = Facci tutte le domande che hai, interagisci con altri membri della community e anche con gli sviluppatori direttamente! Puoi anche segnalare bug in questo modo se non vuoi usare il link nel pannello laterale.
 
 discord-invite = Unisciti al nostro server Discord
 twitter-invite = Contattaci su Twitter
