@@ -35,7 +35,7 @@
   },
   "it_IT": {
     "displayName": "Italiano",
-    "community: true,
+    "community": true
   },
   "ja_JP": {
     "displayName": "やまと"
@@ -57,7 +57,7 @@
   },
   "ru_RU": {
     "displayName": "Русский",
-    "community": true,
+    "community": true
   },
   "sk_SK": {
     "displayName": "Slovenčina"
