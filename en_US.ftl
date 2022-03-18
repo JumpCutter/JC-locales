@@ -56,7 +56,7 @@ number-of-highlights = Number of highlights
 number-of-highlights-tooltip = Each Highlight will be roughly 30sec. If you choose 10, then it will select the 10 best moments from your stream. Each highlight beginning and end should be refined by you! Recommendation: I typically toss out half the highlights, so if you want a 2.5min highlight video I recommend selecting 10clips. Recommended: {$VODinitialNumHighlights}
 
 length-of-sections = Length of sections
-length-of-sections-tooltip = This refines the results. Think if it's like goldilocks. If the number is too big it will miss really good highlights, and if the number is too small it might produce more false positives. Each streamer is different so we are giving you the option to experiment. The default should be fine. Recommended: ${VODinatorInitial.lenSection}
+length-of-sections-tooltip = This refines the results. Think if it's like goldilocks. If the number is too big it will miss really good highlights, and if the number is too small it might produce more false positives. Each streamer is different so we are giving you the option to experiment. The default should be fine. Recommended: {$VODinatorInitial.lenSection}
 
 compare-sections = Compare sections
 # XXX: TBH, I don't really understand what the last part means in english either ("This determines how relative you want your edits to be.")

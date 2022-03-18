@@ -54,6 +54,7 @@ number-of-highlights = Anzahl der Höhepunkte
 number-of-highlights-tooltip = Jedes Highlight dauert etwa 30 Sekunden. Wenn Sie 10 auswählen, werden die 10 besten Momente aus Ihrem Stream ausgewählt. Der Anfang und das Ende eines jeden Höhepunkts muss in der Regel ein wenig angepasst werden! Empfehlung: Normalerweise ist die Hälfte der Höhepunkte ungeeignet. Wenn du also ein 2,5-minütiges Highlight-Video möchtest, empfehlen wir, 10 Höhepunkte auszuwählen. Empfohlen: {$VODinitialNumHighlights}
 
 length-of-sections = Länge der Abschnitte
+
 length-of-sections-tooltip = Dies verfeinert die Ergebnisse. Wenn die Zahl zu groß ist, werden wirklich gute Höhepunkte übersehen, und wenn die Zahl zu klein ist, kann es zu mehr falsch positiven Ergebnissen kommen. Jeder Streamer ist anders, deshalb kannst du hier experimentieren. Die Standardeinstellung sollte in Ordnung sein. Empfohlen: ${VODinatorInitial.lenSection}
 
 compare-sections = Abschnitte vergleichen
