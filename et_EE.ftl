@@ -54,7 +54,7 @@ number-of-highlights = tipphetkede arv
 number-of-highlights-tooltip = Iga Highlight on umbes 30sek. Kui valite 10, siis valib see 10 parimat hetke teie voost. Iga esiletõstmise alguse ja lõpu peaksite ise täpsustama! Soovitus: Ma tavaliselt viskan pooled tipphetked välja, nii et kui soovite 2,5min tipphetkede videot, siis soovitan valida 10clippi. Soovitatav: {$VODinitialNumHighlights}
 
 length-of-sections = lõikude pikkus
-length-of-sections-tooltip = See täpsustab tulemusi. Mõelge, kui see on nagu kuldking. Kui arv on liiga suur, jäävad tõeliselt head esiletõstmised vahele, ja kui arv on liiga väike, võib see tekitada rohkem valepositiivseid tulemusi. Iga striimija on erinev, seega anname teile võimaluse katsetada. Vaikimisi peaks olema hea. Soovitatav: ${VODinatorInitial.lenSection}
+length-of-sections-tooltip = See täpsustab tulemusi. Mõelge, kui see on nagu kuldking. Kui arv on liiga suur, jäävad tõeliselt head esiletõstmised vahele, ja kui arv on liiga väike, võib see tekitada rohkem valepositiivseid tulemusi. Iga striimija on erinev, seega anname teile võimaluse katsetada. Vaikimisi peaks olema hea. Soovitatav: {$VODinatorInitial.lenSection}
 
 compare-sections = Võrdle sektsioone
 compare-sections-tooltip = See täpsustab tulemusi. Iga sektsiooni võrreldakse oma naabersektsioonidega, et teha kindlaks, kas andmed on kõrvalekalded või mitte. Iga andmepala on suhteline, kuna publiku käitumises ja säilitamises on nii palju kõikumist. Kui valite 1, vaadatakse 1 sektsiooni mõlemas suunas. Kui valite 5, vaatab see 5 lõiku mõlemas suunas. See määrab, kui suhteliseks te soovite, et teie toimetused oleksid suhtelised. Vaikimisi peaks olema hea. Soovitatav: {$VODinitialCompareSection}
